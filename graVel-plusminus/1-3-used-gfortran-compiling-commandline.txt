@@ -1,0 +1,1 @@
+gfortran -Wall -o 1-1-graVel-plusminus.exe -static 1-2-graVel-plusminus.for

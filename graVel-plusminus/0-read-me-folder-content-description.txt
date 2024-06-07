@@ -1,0 +1,79 @@
+This folder contains:
+
+
+1.      Software 'graVel±'
+
+        The program gravel± was used for the analyses in Klösch et al.
+        (2024a). 
+1.1     "1-1-graVel-plusminus.exe": The executable of graVel±. You may have 
+        to start it from the Windows command prompt.
+1.2     "1-2-graVel-plusminus.for": This is the code of graVel±, written in
+        FORTRAN language. 
+1.3     "1-3-used-gfortran-compiling-commandline.txt": The command line 
+        used to compile graVel± with the GNU Compiler Collection 
+        (GCC).
+1.4     "1-4-gpl-3.0.txt": GNU General Public License as published by 
+        the Free Software Foundation, version 3. 
+        This program is free software: you can redistribute it and/or
+        modify  it under the terms of the GNU General Public License 
+        as published by the Free Software Foundation, either version 3
+        of the License, or (at your option) any later version. 
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+        You should have received a copy of the GNU General Public 
+        License along with this program (see file "1-4-gpl-3.0.txt".  
+        If not, see <http://www.gnu.org/licenses/>.
+
+
+2.      Example data from the Drava River
+
+        The data were taken from Kloesch et al. (2024b) and prepared
+        here in the format required for use with graVel±. See Klösch
+        et al. (2024a) and Klösch et al. (2024b) on how the data were 
+        derived. These files can be used to reconstruct the results of 
+        Klösch et al. (2024a) and serve as test and example files for 
+        the application of graVel±.
+2.1     "2-1-shear-stress-CEST.txt": Shear stress time series at the 
+        seeding location of the bedload tracers. 
+        1st column: Time, where 1 day corresponds to one unit.
+        In this file, the time is given in Excel number format 
+        (starting on 1/1/1900). Please note that the shear stress time
+        series must start at least one time step before the time of 
+        seeding. For the Drava, the 15-min intervals of the recordings 
+        of the gauge provided a sufficient resolution of the time 
+        series. In smaller catchments with more flashy events, the 
+        resolution of the time series may need to be increased (e.g.,
+        by linear interpolation).
+        2nd column: Bed shear stress in N m-2.
+2.2     "2-2-32p1mm.txt", "2-2-45p6mm.txt", "2-2-63p4mm.txt", 
+        "2-2-93p2mm.txt", "2-2-140p4mm.txt": 
+        These files are input files created for each of the five 
+        tracer size classes. The files contain four columns: The date
+        of the earlier tracer survey, the date of the later tracer
+        survey, the date of the seeding of the respective tracer (in 
+        the study of Klösch et al. (2024a) it was the same time for all 
+        tracers) and the intermediate travel distances between the two 
+        surveys. The time is given in Excel numbers format. 
+        The files are named after the tracer size, which is 
+        represented by the length of the b-axis. In the file names 
+        used here, the "p" stands for the decimal point.
+        Here, the grain sizes of the tracers are represented by the 
+        length of the b-axis used in the analyses (see right column of
+        Table 2 in Klösch et al. (2024a)).
+2.3     "2-3-readme-used-settings-in-regression-runs.txt": This file 
+        shows the settings used when applying graVel± to obtain 
+        the results reported in Klösch et al. (2024a).
+
+
+References:
+
+Klösch, M., Pessenlehner, S., Gmeiner, Ph., & Habersack H (2024a).  
+        Tracer velocity vs. bedload velocity: Derivation of the  
+        unsteady virtual bedload velocity from decelerating tracers.  
+        Water Resources Research. https://doi.org/10.1029/2023WR034823
+Klösch, M., Pessenlehner, S., Gmeiner, Ph., & Habersack, H. (soon 
+        available). Data set from a bedload tracer field study in an
+        alpine section of the Drava River in 2017 and 2018 [Dataset]. 
+        PANGAEA.
