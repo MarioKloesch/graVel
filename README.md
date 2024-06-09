@@ -55,4 +55,4 @@ Citation of this github repository:
 
 Klösch, M., & Habersack, H. (2024). graVel: a code set for deriving the
 unsteady virtual grain velocity from bedload tracer studies 
-(Version 1.0) [Software]. 
+(Version 1.0) [Software]. https://github.com/MarioKloesch/graVel/
