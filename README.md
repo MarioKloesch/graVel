@@ -24,7 +24,7 @@ directly linking the virtual velocity to the flow variable, this was an
 important step in bridging gaps between laboratory and field studies. 
 However, the slowdown of the tracers due to effects from burial and 
 advection has not yet been taken into account.
-Together with a publication by Klösch et al. (2024a), we present 
+Together with a publication by Klösch et al. (2024), we present 
 "graVel±", a code that additionally accounts for tracer slowdown. The 
 inclusion of slowdown enables the distinction between bedload velocity 
 and decelerating tracer velocity and is a further step towards bridging
@@ -32,7 +32,7 @@ gaps to more fundamental knowledge gained in laboratories.
 At the moment, the graVel repository contains ‘graVel±’ and data from 
 Klösch et al. (submitted) in the format required for use as input data 
 for graVel±. This enables the reconstruction of the results of Klösch 
-et al. (2024a). We plan to also provide ‘graVel0’ in this github 
+et al. (2024). We plan to also provide ‘graVel0’ in this github 
 repository, which was originally provided as supporting information to 
 Klösch and Habersack (2018).  
 
