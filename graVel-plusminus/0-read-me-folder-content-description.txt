@@ -1,16 +1,16 @@
 This folder contains:
 
 
-1.      Software 'graVel±'
+1.      Software 'graVelÂ±'
 
-        The program gravel± was used for the analyses in Klösch et al.
+        The program gravelÂ± was used for the analyses in KlÃ¶sch et al.
         (2024a). 
-1.1     "1-1-graVel-plusminus.exe": The executable of graVel±. You may have 
+1.1     "1-1-graVel-plusminus.exe": The executable of graVelÂ±. You may have 
         to start it from the Windows command prompt.
-1.2     "1-2-graVel-plusminus.for": This is the code of graVel±, written in
+1.2     "1-2-graVel-plusminus.for": This is the code of graVelÂ±, written in
         FORTRAN language. 
 1.3     "1-3-used-gfortran-compiling-commandline.txt": The command line 
-        used to compile graVel± with the GNU Compiler Collection 
+        used to compile graVelÂ± with the GNU Compiler Collection 
         (GCC).
 1.4     "1-4-gpl-3.0.txt": GNU General Public License as published by 
         the Free Software Foundation, version 3. 
@@ -30,11 +30,11 @@ This folder contains:
 2.      Example data from the Drava River
 
         The data were taken from Kloesch et al. (2024b) and prepared
-        here in the format required for use with graVel±. See Klösch
-        et al. (2024a) and Klösch et al. (2024b) on how the data were 
+        here in the format required for use with graVelÂ±. See KlÃ¶sch
+        et al. (2024a) and KlÃ¶sch et al. (2024b) on how the data were 
         derived. These files can be used to reconstruct the results of 
-        Klösch et al. (2024a) and serve as test and example files for 
-        the application of graVel±.
+        KlÃ¶sch et al. (2024a) and serve as test and example files for 
+        the application of graVelÂ±.
 2.1     "2-1-shear-stress-CEST.txt": Shear stress time series at the 
         seeding location of the bedload tracers. 
         1st column: Time, where 1 day corresponds to one unit.
@@ -53,7 +53,7 @@ This folder contains:
         tracer size classes. The files contain four columns: The date
         of the earlier tracer survey, the date of the later tracer
         survey, the date of the seeding of the respective tracer (in 
-        the study of Klösch et al. (2024a) it was the same time for all 
+        the study of KlÃ¶sch et al. (2024a) it was the same time for all 
         tracers) and the intermediate travel distances between the two 
         surveys. The time is given in Excel numbers format. 
         The files are named after the tracer size, which is 
@@ -61,19 +61,20 @@ This folder contains:
         used here, the "p" stands for the decimal point.
         Here, the grain sizes of the tracers are represented by the 
         length of the b-axis used in the analyses (see right column of
-        Table 2 in Klösch et al. (2024a)).
+        Table 2 in KlÃ¶sch et al. (2024a)).
 2.3     "2-3-readme-used-settings-in-regression-runs.txt": This file 
-        shows the settings used when applying graVel± to obtain 
-        the results reported in Klösch et al. (2024a).
+        shows the settings used when applying graVelÂ± to obtain 
+        the results reported in KlÃ¶sch et al. (2024a).
 
 
 References:
 
-Klösch, M., Pessenlehner, S., Gmeiner, Ph., & Habersack H (2024a).  
-        Tracer velocity vs. bedload velocity: Derivation of the  
+KlÃ¶sch, M., Pessenlehner, S., Gmeiner, Ph., & Habersack H (2024a).  
+        Tracer velocity versus bedload velocity: Derivation of the  
         unsteady virtual bedload velocity from decelerating tracers.  
-        Water Resources Research. https://doi.org/10.1029/2023WR034823
-Klösch, M., Pessenlehner, S., Gmeiner, Ph., & Habersack, H. (soon 
-        available). Data set from a bedload tracer field study in an
-        alpine section of the Drava River in 2017 and 2018 [Dataset]. 
-        PANGAEA.
+        Water Resources Research, 60. 
+        https://doi.org/10.1029/2023WR034823   
+KlÃ¶sch, M., Pessenlehner, S., Gmeiner, P., & Habersack, H. (2024b):
+        Data set from a bedload tracer field study in an alpine section 
+        of the Drava River in 2017 and 2018 [dataset bundled 
+        publication]. PANGAEA, https://doi.org/10.1594/PANGAEA.969734
