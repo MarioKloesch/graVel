@@ -4,7 +4,7 @@ from bedload tracer studies
 Mario Klösch & Helmut Habersack
 
 Institute of Hydraulic Engineering and River Research, Department of 
-Water, Atmosphere and Environment, University of Natural Resources and 
+Landscape, Water and Infrastructure, University of Natural Resources and 
 Life Sciences, Vienna, Am Brigittenauer Sporn 3, 1200 Vienna, Austria
 
 Countless laboratory experiments generated a vast body of knowledge on
