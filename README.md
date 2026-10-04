@@ -39,11 +39,10 @@ Klösch & Habersack (2018).
 
 Citation of this code set:
 
-Klösch, M., & Habersack, H. (2024). graVel: A code set for deriving 
-the unsteady virtual grain velocity from bedload tracer studies 
-(v.1.0.0)
-[Software]. In Sorting workshop, Grenoble, France. Zenodo. 
-https://doi.org/10.5281/zenodo.12784683
+Klösch, M., & Habersack, H. (2024). graVel: A code set for deriving the 
+unsteady virtual grain velocity from bedload tracer studies 
+(Version v.1.0.0) [Computer software]. Zenodo. Sorting Workshop, 
+Grenoble, France. https://doi.org/10.5281/zenodo.12784683
 
 References:
 
